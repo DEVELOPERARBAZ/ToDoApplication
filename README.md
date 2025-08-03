@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+
+## 🚀 Deploy Link
+
+# [Click here to view the deployed app](https://github.com/DEVELOPERARBAZ/ToDoApplication/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
