@@ -1,3 +1,19 @@
 body {
   background-color: rgba(128, 128, 128, 0.726);
 }
+@media only screen and (max-width: 768px) {
+  /* Styles for devices smaller than or equal to 768px */
+  input::placeholder {
+    font-size: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #input{
+    font-size: 4px ;
+  }
+
+  #add {
+    font-size: small;
+  }
+}

@@ -14,12 +14,13 @@ export default function App() {
     setInput("");
     setPopup(true);
 
-    setTimeout(() => setPopup(false), 2000);
+    setTimeout(() => setPopup(false), 1500);
   };
   return (
     <>
       <div className="w-100 bg-dark d-flex justify-content-center gap-3 p-5 ">
         <input
+          id="input"
           value={input}
           onChange={(e) => {
             setInput(e.target.value);
@@ -29,6 +30,7 @@ export default function App() {
           className="p-2 w-50 bg-dark-subtle text-center fs-5 d-flex flex-wrap text-uppercase rounded-1"
         />
         <button
+          id="add"
           className="btn btn-primary text-bolder text-light w-25"
           onClick={addWork}
         >
@@ -37,7 +39,7 @@ export default function App() {
       </div>
       <div
         id="content"
-        className="bg-secondary d-flex flex-column align-items-center"
+        className="bg-secondary d-flex flex-column-reverse align-items-center"
       >
         {item.map((each, idx) => {
           return <ToDo key={idx} work={each} />;
