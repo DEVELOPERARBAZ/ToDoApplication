@@ -2,7 +2,7 @@
 
 ## 🚀 Deploy Link
 
-# [Click here to view the deployed app](https://github.com/DEVELOPERARBAZ/ToDoApplication/)
+# [Click here to view the deployed app](https://tutedudetodoapplication.netlify.app/)
 
 # React + Vite
 
